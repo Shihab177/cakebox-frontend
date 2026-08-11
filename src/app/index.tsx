@@ -1,8 +1,9 @@
 import { ScrollView, StyleSheet } from "react-native";
 import Searchbar from "./components/home/Searchbar";
 import Categories from "./components/home/Categories";
-import Popular from "./components/home/Popular";
+
 import { SafeAreaView } from "react-native-safe-area-context";
+import PopularCakes from "./components/home/PopularCakes";
 export default function Index() {
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -13,7 +14,7 @@ export default function Index() {
     >
       <Searchbar />
       <Categories />
-      <Popular />
+      <PopularCakes />
     </ScrollView>
     </SafeAreaView>
   

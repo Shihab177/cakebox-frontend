@@ -20,7 +20,7 @@ type TPopularCakes = {
   price: number;
   qty: number;
 };
-const Popular = () => {
+const PopularCakes = () => {
   const [popularCakes, setPopularCakes] = useState<TPopularCakes[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   useEffect(() => {
@@ -82,7 +82,7 @@ const Popular = () => {
   );
 };
 
-export default Popular;
+export default PopularCakes;
 
 const styles = StyleSheet.create({
   loaderContainer: {

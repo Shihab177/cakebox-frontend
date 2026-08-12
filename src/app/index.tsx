@@ -1,9 +1,9 @@
+import Categories from "@/components/home/Categories";
+import PopularCakes from "@/components/home/PopularCakes";
+import Searchbar from "@/components/home/Searchbar";
 import { ScrollView, StyleSheet } from "react-native";
-import Searchbar from "./components/home/Searchbar";
-import Categories from "./components/home/Categories";
-
 import { SafeAreaView } from "react-native-safe-area-context";
-import PopularCakes from "./components/home/PopularCakes";
+
 export default function Index() {
   return (
     <SafeAreaView style={styles.safeArea}>

@@ -27,18 +27,22 @@ const PopularCakes = () => {
     const controller = new AbortController();
     const getPopularCakes = async () => {
       try {
-        const response = await axios.get("http://192.168.0.106:3160/api/v1/cakes", {
-          signal: controller.signal,
-        });
+        const response = await axios.get(
+          "http://192.168.0.106:3160/api/v1/cakes",
+          {
+            signal: controller.signal,
+          },
+        );
         setPopularCakes(response.data?.data || []);
       } catch (error) {
         if (!axios.isCancel(error)) {
           console.error("API Error:", error);
         }
-      }finally {
+      } finally {
         if (!controller.signal.aborted) {
           setLoading(false);
-        }}
+        }
+      }
     };
     getPopularCakes();
     return () => controller.abort();
@@ -47,6 +51,13 @@ const PopularCakes = () => {
     return (
       <View style={styles.loaderContainer}>
         <ActivityIndicator size="small" color="#301F1F" />
+      </View>
+    );
+  }
+  if (popularCakes.length < 1) {
+    return (
+      <View style={styles.loaderContainer}>
+        <text>Popular cake not found</text>
       </View>
     );
   }

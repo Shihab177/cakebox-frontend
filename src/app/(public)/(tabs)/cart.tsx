@@ -39,175 +39,7 @@ const MOCK_CART_ITEMS: TCake[] = [
     price: 25,
     qty: 1,
   },
-  {
-    _id: "6a76af87eb4hkvced672cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46yfhzsrtg72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb4ccnf672cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46jafg72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46rhfs72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46ooy72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb467gdb2cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46gdf72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb4n672cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87ebg4672cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb46d72cf76e25431",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb4672cf76e2543d1",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
-  {
-    _id: "6a76af87eb4672cf76e25431s",
-    title: "Chocolate cake",
-    description:
-      "A good chocolate cake can be enjoyed on just about any occasion with rich chocolate sponge...",
-    categoryId: "1",
-    images: [
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400",
-    ],
-    ingredients: ["Flour", "Sugar", "Cocoa Powder"],
-    price: 25,
-    qty: 1,
-  },
+  
 ];
 
 const MOCK_YOU_MAY_LIKE: TCake[] = [
@@ -259,16 +91,7 @@ const Cart = () => {
   };
 
   const handleCheckout = () => {
-    const isAuthenticated = false;
-
-    if (isAuthenticated) {
-      router.push("/(protected)/checkout" as any);
-    } else {
-      router.push({
-        pathname: "/(auth)/login" as any,
-        params: { redirectTo: "/checkout" },
-      });
-    }
+   router.push("/checkout" as any)
   };
 
   return (
@@ -340,6 +163,7 @@ const Cart = () => {
 
       {cartItems.length > 0 && (
         <TouchableOpacity
+
           style={styles.checkoutBtn}
           activeOpacity={0.8}
           onPress={handleCheckout}

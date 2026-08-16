@@ -22,7 +22,7 @@ export default function TabLayout() {
           shadowOffset: { width: 0, height: -2 },
           shadowOpacity: 0.05,
           shadowRadius: 10,
-          // ডায়নামিক হাইট ও প্যাডিং সেটআপ
+         
           height: Platform.OS === 'ios' ? 60 + insets.bottom : 60 + insets.bottom,
           paddingBottom: insets.bottom > 0 ? insets.bottom : 10,
           paddingTop: 10,
